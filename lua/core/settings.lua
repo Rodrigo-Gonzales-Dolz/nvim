@@ -1,19 +1,18 @@
-
-local g = vim.g        -- Variables globales
+local g = vim.g       -- Variables globales
 local opt= vim.opt    -- Establecer opciones (global/buffer/windows-scoped)
 
 -- Generales
- opt.mouse = 'a'                        -- Habilita la compatibilidad con el mouse
- opt.clipboard = 'unnamedplus'          -- Copiar/pegar en el portapapeles del sistema
- opt.swapfile = false                   -- No use el archivo de intercambio
- opt.completeopt = 'menuone,noinsert,noselect'   -- Opciones de autocompletar
+ opt.mouse = 'a'    -- Habilita la compatibilidad con el mouse
+ opt.clipboard = 'unnamedplus'  -- Copiar/pegar en el portapapeles del sistema
+ opt.swapfile = false   -- No use el archivo de intercambio
+ opt.completeopt = 'menuone,noinsert,noselect'  -- Opciones de autocompletar
 
 -- Interfaz de usuario de Neovim
  opt.number = true            -- Mostrar número de línea
  opt.rnu = true               -- Números relativos
  opt.showmatch = true         -- Resalta los paréntesis coincidentes
  opt.foldmethod = 'marker'    -- Habilitar plegado (predeterminado 'foldmarker')
- opt.colorcolumn = '80'       -- Marcador de longitud de línea en 80 columnas
+-- opt.colorcolumn = '80'       -- Marcador de longitud de línea en 80 columnas
  opt.splitright = true        -- división vertical a la derecha
  opt.splitbelow = true        -- División horizontal hasta el fondo
  opt.wrap = true              -- Texto se ajuste al buffer

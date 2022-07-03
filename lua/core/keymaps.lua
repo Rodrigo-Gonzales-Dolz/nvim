@@ -6,7 +6,15 @@ vim.g.mapleader = ' '
 
 mapper("n","w", ":w<CR>")
 mapper("n","q", ":q<CR>")
+
 --salir q!
 mapper("n","<LEADER>qq", ":q!<CR>")
+
 --duplicar lineas
-mapper("n","tt",":t.<CR>")
+mapper("n","tt", ":t.<CR>")
+
+--neovimtree
+mapper("n","<LEADER>t", ":NvimTreeToggle<CR>")
+ 
+--comment
+mapper("n", "<LEADER>,", ":CommentToggle<CR>" )

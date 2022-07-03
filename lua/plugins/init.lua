@@ -16,4 +16,10 @@ require('packer').startup(function()
 
     -- nerdTREE
     use { 'kyazdani42/nvim-tree.lua' }
+
+    -- ayu
+    use { 'Shatur/neovim-ayu' }
+
+    --commend
+    use "terrortylor/nvim-comment"
 end)

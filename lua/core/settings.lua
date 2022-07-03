@@ -8,12 +8,14 @@ local opt= vim.opt    -- Establecer opciones (global/buffer/windows-scoped)
  opt.completeopt = 'menuone,noinsert,noselect'  -- Opciones de autocompletar
 
 -- Interfaz de usuario de Neovim
--- opt.colorscheme = 'dracula'
  opt.number = true            -- Mostrar número de línea
  opt.rnu = true               -- Números relativos
  opt.showmatch = true         -- Resalta los paréntesis coincidentes
  opt.foldmethod = 'marker'    -- Habilitar plegado (predeterminado 'foldmarker')
 -- opt.colorcolumn = '80'       -- Marcador de longitud de línea en 80 columnas
+ opt.cursorline = true
+ opt.showcmd = true           -- para mostrar comando a ejecutarse  
+ opt.showmode = false         -- para ocultar los modos de manera nativa
  opt.splitright = true        -- división vertical a la derecha
  opt.splitbelow = true        -- División horizontal hasta el fondo
  opt.wrap = true              -- Texto se ajuste al buffer

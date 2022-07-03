@@ -79,6 +79,16 @@ _G.packer_plugins = {
     path = "/home/rgd/.local/share/nvim/site/pack/packer/start/lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
   },
+  ["neovim-ayu"] = {
+    loaded = true,
+    path = "/home/rgd/.local/share/nvim/site/pack/packer/start/neovim-ayu",
+    url = "https://github.com/Shatur/neovim-ayu"
+  },
+  ["nvim-comment"] = {
+    loaded = true,
+    path = "/home/rgd/.local/share/nvim/site/pack/packer/start/nvim-comment",
+    url = "https://github.com/terrortylor/nvim-comment"
+  },
   ["nvim-tree.lua"] = {
     loaded = true,
     path = "/home/rgd/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",

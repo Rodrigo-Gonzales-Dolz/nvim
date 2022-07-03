@@ -8,6 +8,7 @@ local opt= vim.opt    -- Establecer opciones (global/buffer/windows-scoped)
  opt.completeopt = 'menuone,noinsert,noselect'  -- Opciones de autocompletar
 
 -- Interfaz de usuario de Neovim
+-- opt.colorscheme = 'dracula'
  opt.number = true            -- Mostrar número de línea
  opt.rnu = true               -- Números relativos
  opt.showmatch = true         -- Resalta los paréntesis coincidentes
